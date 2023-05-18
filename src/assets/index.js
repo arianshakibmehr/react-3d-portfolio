@@ -32,6 +32,7 @@ import freelancer from "./company/freelancer.png";
 import elementor from "./tech/elementor.png";
 import bootstrap from "./tech/bootstrap.png";
 import githubs from "./tech/github.png";
+import urls from "./tech/url.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,4 +74,5 @@ export {
   elementor,
   bootstrap,
   githubs,
+  urls,
 };
