@@ -29,6 +29,9 @@ import wordpress from "./company/wordpress.png";
 import metisa from "./company/metisa.png";
 import seokar from "./company/seokar.png";
 import freelancer from "./company/freelancer.png";
+import elementor from "./tech/elementor.png";
+import bootstrap from "./tech/bootstrap.png";
+import githubs from "./tech/github.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -67,4 +70,7 @@ export {
   metisa,
   seokar,
   freelancer,
+  elementor,
+  bootstrap,
+  githubs,
 };

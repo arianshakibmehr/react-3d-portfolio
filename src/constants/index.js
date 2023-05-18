@@ -27,6 +27,9 @@ import {
   metisa,
   seokar,
   freelancer,
+  elementor,
+  bootstrap,
+  githubs,
 } from "../assets";
 
 export const navLinks = [
@@ -77,28 +80,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Wordpress",
+    icon: wordpress,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Elementor",
+    icon: elementor,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "GitHub",
+    icon: githubs,
   },
   {
     name: "Three JS",
@@ -112,10 +115,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -126,10 +125,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2020 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I held in-person meetings and remote courses on website design on the WordPress platform and working with HTML and CSS.",
+      "Implementing responsive design.",
+      "Website design in WordPress platform with Elementor plugin and work with WooCommerce.",
     ],
   },
   {
@@ -137,7 +135,7 @@ const experiences = [
     company_name: "Freelancer",
     icon: freelancer,
     iconBg: "#E6DEDD",
-    date: "Always",
+    date: "May 2020 - Today",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -165,10 +163,11 @@ const experiences = [
     iconBg: "black",
     date: "February 2022 - January 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing wordpress theme using Front-End skill and other related technologies.",
+      "Collaborating with cross-functional teams including designers, seo expert, managers, and Back-End developers to create high-quality website.",
+      "working with Html,Css, js, bootstrap, a little php and Git&GitHub to create a wordpress template",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "After completing the cooperation with Elm Safir digital marketing company, I decided to increase the amount and increase my working knowledge. So that self-taught and by creating interest on my front-end coding skills increased a lot.",
     ],
   },
   {
@@ -181,7 +180,7 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews meetings and providing constructive feedback to other developers.",
     ],
   },
 ];
