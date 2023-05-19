@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({
   index,
   name,
-  descripition,
+  description,
   tags,
   image,
   source_code_link,
@@ -51,6 +51,10 @@ const ProjectCard = ({
               />
             </div>
           </div>
+        </div>
+        <div className="mt-5">
+          <h3>{name}</h3>
+          <p>{description}</p>
         </div>
       </Tilt>
     </motion.div>
