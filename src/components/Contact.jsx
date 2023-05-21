@@ -17,9 +17,53 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // template_44bwo4m
+
+    // Service ID : service_2z21hey
+
+    // Public Key : MMv976fxHX__WX-Fx
+
+    emailjs
+      .send(
+        "service_2z21hey",
+        "template_44bwo4m",
+        {
+          from_name: form.name,
+          to_name: "Arian Shakib Mehr",
+          from_email: form.email,
+          to_email: "arian.shakib77@gmail.com",
+          message: form.message,
+        },
+        "MMv976fxHX__WX-Fx"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible!");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong!!!");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
