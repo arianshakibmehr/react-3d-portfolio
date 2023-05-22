@@ -33,6 +33,14 @@ import elementor from "./tech/elementor.png";
 import bootstrap from "./tech/bootstrap.png";
 import githubs from "./tech/github.png";
 import urls from "./tech/url.png";
+import metisas from "./metisa.jpg";
+import sitekar from "./sitekar.jpg";
+import bartehpub from "./bartehpub.jpg";
+import arianportfolio from "./arianportfolio.jpg";
+import sepanta from "./sepanta.jpg";
+import qebres from "./qebres.jpg";
+import adaptor from "./adaptor.jpg";
+import samyar from "./samyar.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -75,4 +83,12 @@ export {
   bootstrap,
   githubs,
   urls,
+  metisas,
+  bartehpub,
+  sitekar,
+  arianportfolio,
+  sepanta,
+  qebres,
+  adaptor,
+  samyar,
 };

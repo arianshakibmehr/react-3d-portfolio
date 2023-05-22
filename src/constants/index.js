@@ -30,6 +30,14 @@ import {
   elementor,
   bootstrap,
   githubs,
+  metisas,
+  bartehpub,
+  sitekar,
+  arianportfolio,
+  adaptor,
+  qebres,
+  sepanta,
+  samyar,
 } from "../assets";
 
 export const navLinks = [
@@ -212,66 +220,223 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Metisa Digital Marketing Group",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Digital marketing corporate website that provides website design and SEO services, graphics, motion and animation and project management system.",
     tags: [
       {
-        name: "react",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Swiper.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: metisas,
+    source_code_link: "#",
+  },
+  {
+    name: "Site Kar",
+    description:
+      "This company provides website design services and various landing pages and you can use those services. Also, this website has a news blog. It is also a subset of SITEKAR.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Swiper.JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sitekar,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Arian Shakib Mehr Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A personal website with the purpose of displaying portfolios and working with the framework : React, ThreeJs, TailwindCSS. And working with the component",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ThreeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: arianportfolio,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "BartehPub",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A WordPress website was designed with a dedicated skin and works in the field of selling books and courses in different foreign languages.",
     tags: [
       {
-        name: "nextjs",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SwiperJS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bartehpub,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Sepanta Clinic",
+    description:
+      "WordPress website design with Elementor page builder and using custom CSS in the project as well as creating new elements with CSS, JS.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Custom CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JET Engine",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sepanta,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Cyprus State",
+    description:
+      "WordPress website design with Elementor page builder and the project as well as creating new elements with CSS, JS. and create custom taxonomy.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Custom CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JET Engine",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qebres,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Adaptor Center",
+    description:
+      "WordPress website design with Elementor page builder and use of CSS and use of WooCommerce in the project as well as custom taxonomy.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Custom CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JET Engine",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adaptor,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Samyar Electronic",
+    description:
+      "WordPress site design with Elementor page builder and use of CSS and use of WooCommerce in the project as well as custom taxonomy.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "green-text-gradient",
+      },
+      {
+        name: "woocommerce",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Custom CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JET Engine",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: samyar,
     source_code_link: "https://github.com/",
   },
 ];
