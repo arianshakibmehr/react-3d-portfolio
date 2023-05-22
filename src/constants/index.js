@@ -137,9 +137,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2020 - Today",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designing WordPress website and working with front-end frameworks like React Using different libraries such as tailwindcss, bootstrap and three.js",
+      "Collaborating with cross-functional teams including designers, SEO managers, and other developers to create high-quality websites.",
+      "Implementing fully responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -150,10 +150,10 @@ const experiences = [
     iconBg: "black",
     date: "September 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I was responsible for designing WordPress sites and UI/UX designs, and I was very active in designing in these two positions",
+      "Working with figma tools for UI/UX designs.",
+      "And I also had a lot of activity in the field of R&D (Research & Development).",
+      "Participating in design meetings and developing new ideas for the team.",
     ],
   },
   {
@@ -164,10 +164,8 @@ const experiences = [
     date: "February 2022 - January 2023",
     points: [
       "Developing wordpress theme using Front-End skill and other related technologies.",
-      "Collaborating with cross-functional teams including designers, seo expert, managers, and Back-End developers to create high-quality website.",
-      "working with Html,Css, js, bootstrap, a little php and Git&GitHub to create a wordpress template",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "After completing the cooperation with Elm Safir digital marketing company, I decided to increase the amount and increase my working knowledge. So that self-taught and by creating interest on my front-end coding skills increased a lot.",
+      "After completing the cooperation with Elm Safir digital marketing company, I decided to increase the Web knowledge and increase my working knowledge. So that self-taught and by creating interest on my front-end coding skills increased a lot.",
+      "The skills I used as a front-end developer and website designer are: HTML, CSS, JS, Bootstrap, JQuery, TailwindCSS, Sass, Swiperjs, Git & GitHub .",
     ],
   },
   {
@@ -177,10 +175,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "After working with Metisa's digital marketing team, I was looking to increase my work level and went to a bigger and more well-known company called SEOKAR.",
+      "The skills I used as a front-end developer and website designer are: HTML, CSS, JS, Bootstrap, JQuery, TailwindCSS, Sass, Swiperjs, Git & GitHub .",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews meetings and providing constructive feedback to other developers.",
+      "I experienced more tasks to perform as well as a higher and better workload.",
     ],
   },
 ];
